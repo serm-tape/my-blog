@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/my-first-post/</loc>
+    <loc>https://serm-tape.github.io/my-blog/post/my-first-post/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/me/</loc>
+    <loc>https://serm-tape.github.io/my-blog/about/me/</loc>
     <lastmod>2017-06-06T20:45:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://serm-tape.github.io/my-blog/about/</loc>
     <lastmod>2017-06-06T20:45:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://serm-tape.github.io/my-blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://serm-tape.github.io/my-blog/post/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://serm-tape.github.io/my-blog/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://serm-tape.github.io/my-blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/trivia/</loc>
+    <loc>https://serm-tape.github.io/my-blog/tags/trivia/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
     <priority>0</priority>
   </url>
