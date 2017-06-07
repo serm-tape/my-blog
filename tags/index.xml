@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Serm&#39;s blog</title>
-    <link>/tags.html</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Serm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Trivia</title>
-      <link>/tags/trivia.html</link>
+      <link>/tags/trivia/</link>
       <pubDate>Tue, 06 Jun 2017 21:14:30 +0700</pubDate>
       
-      <guid>/tags/trivia.html</guid>
+      <guid>/tags/trivia/</guid>
       <description></description>
     </item>
     

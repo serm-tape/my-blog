@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trivia on Serm&#39;s blog</title>
-    <link>/tags/trivia.html</link>
+    <link>/tags/trivia/</link>
     <description>Recent content in Trivia on Serm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 06 Jun 2017 21:14:30 +0700</lastBuildDate>
@@ -12,10 +12,10 @@
     
     <item>
       <title>My first post</title>
-      <link>/post/my-first-post.html</link>
+      <link>/post/my-first-post/</link>
       <pubDate>Tue, 06 Jun 2017 21:14:30 +0700</pubDate>
       
-      <guid>/post/my-first-post.html</guid>
+      <guid>/post/my-first-post/</guid>
       <description> My first post This is my first post on this site
 Second topic To test some formatting
 Code const foo = () =&amp;gt; { console.log(&#39;eiei&#39;) }  List  item 1 item 2  sub 1 sub 2  item 3  Link: here

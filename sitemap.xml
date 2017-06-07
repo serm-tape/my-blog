@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/my-first-post.html</loc>
+    <loc>/post/my-first-post/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/about.html</loc>
+    <loc>/about/me/</loc>
+    <lastmod>2017-06-06T20:45:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories.html</loc>
+    <loc>/about/</loc>
+    <lastmod>2017-06-06T20:45:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post.html</loc>
+    <loc>/post/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -29,12 +35,12 @@
   </url>
   
   <url>
-    <loc>/tags.html</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/trivia.html</loc>
+    <loc>/tags/trivia/</loc>
     <lastmod>2017-06-06T21:14:30+07:00</lastmod>
     <priority>0</priority>
   </url>
