@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Serm&#39;s blog</title>
-    <link>http://blog.sermtape.com/tags/html/</link>
+    <link>https://serm-tape.github.io/my-blog/tags/html/</link>
     <description>Recent content in Html on Serm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 07 May 2017 22:30:00 +0700</lastBuildDate>
     
-	<atom:link href="http://blog.sermtape.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://serm-tape.github.io/my-blog/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HBD website for my bro</title>
-      <link>http://blog.sermtape.com/post/hbd-my-bro/</link>
+      <link>https://serm-tape.github.io/my-blog/post/hbd-my-bro/</link>
       <pubDate>Sun, 07 May 2017 22:30:00 +0700</pubDate>
       
-      <guid>http://blog.sermtape.com/post/hbd-my-bro/</guid>
+      <guid>https://serm-tape.github.io/my-blog/post/hbd-my-bro/</guid>
       <description>Happy birthday website for my bro Today (ุ6 May) is my older brother’s birthday. I have no present for him so I have an idea that it’s better to make something geek. When I was in grade 11, I have tried this once, at that time I tried to clone WC3 Dota map that has him as a hero but it failed. Now, I have more skill and experience, then I decided to make an easy static web.</description>
     </item>
     
