@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" ReactBKK 2.0 &middot;  Serm&#39;s blog" />
+        <meta property="og:site_name" content="Serm&#39;s blog" />
+        <meta property="og:url" content="http://blog.sermtape.com/post/react-bkk-2/" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2017-06-04T10:30:00&#43;07:00" />
+        <meta property="og:article:tag" content="event" />
+        <meta property="og:article:tag" content="react" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="ReactBKK 2.0" />
+        <meta name="twitter:description" content="สรุปสิ่งที่ได้จากงาน" />
+        <meta name="twitter:url" content="http://blog.sermtape.com/post/react-bkk-2/" />
+    
+
+        <title> ReactBKK 2.0 &middot;  Serm&#39;s blog</title>
+
+        <link rel="preload" href="http://blog.sermtape.comjs/main.js" as="script" />
+        <link rel="preload" href="http://blog.sermtape.comcss/main.css" as="style" />
+
+    
+        <meta name="description" content="สรุปสิ่งที่ได้จากงาน" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="http://blog.sermtape.comindex.xml" rel="alternate" type="application/rss+xml" title="Serm&#39;s blog" />
+    
+
+    
+        <link rel="canonical" href="http://blog.sermtape.com/post/react-bkk-2/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://blog.sermtape.com/post/react-bkk-2/"
+        },
+        "headline": "ReactBKK 2.0",
+        "description": "สรุปสิ่งที่ได้จากงาน",
+        "author": {
+            "@type": "Person",
+            "name": "Sermsak Tummarattanarangsee",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "http://blog.sermtape.com",
+          "name": "Serm&#39;s blog",
+          "url": "http://blog.sermtape.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "http://blog.sermtape.com/images/reactbkk.jpeg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2017-06-04",
+        "dateModified": "2017-06-04",
+        "wordCount": 515,
+        "keywords": ["event","react"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "http:\/\/blog.sermtape.com"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face{font-family:'icons';src:url(http://blog.sermtape.com/fonts/icons.eot?9273991);src:url(http://blog.sermtape.com/fonts/icons.eot?9273991#iefix) format("embedded-opentype"),url(http://blog.sermtape.com/fonts/icons.woff?9273991) format("woff"),url(http://blog.sermtape.com/fonts/icons.ttf?9273991) format("truetype"),url(http://blog.sermtape.com/fonts/icons.svg?9273991#icons) format("svg");font-weight:400;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #36D995}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #36D995}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#36D995}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #36D995;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#2DB77E}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #36D995;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#36D995;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#2DB77E;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+              <a href="http://blog.sermtape.com">
+      			  
+      				  <img src="https://www.gravatar.com/avatar/2dbba5ab2afc95591eb6c8926442f305.png?s=32" alt="Logo"/>
+      			  
+              </a>
+            </div>
+            <div class="nav-menu">
+              <a class="rss" href="">
+                <i class="icon-rss"></i>
+              </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
+                
+                
+                <a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
+                
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+	<article class="post">
+		<div class="inner">
+
+			<div id="push">
+
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">4 Jun 2017</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">515</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">ReactBKK 2.0</h1>
+  			</header>
+
+  			<section class="post-content">
+  				
+
+<p><img src="/images/reactbkk.jpeg" alt="reactbkk" /></p>
+
+<h1 id="reactbkk-2-0">ReactBKK 2.0</h1>
+
+<p>มีโอกาสได้เข้าร่วมงาน ReactBKK 2.0 จัดที่ปทุมวัน โดยรวมถือว่างานจัดออกมาได้ดี เนื้อหาก็น่าสนใจ ตอนเช้าไปถึงก็เจอพี่ต๊อบอยู่หน้างานเลย เพิ่งเจอกันไปตอนงาน Golang ก็เข้าไปทักทายแล้วก็เข้างานไปกับพี่ต๊อบ รับเสื้อ ไซส์ L หมด เลยได้ XL มาแทน ก็ใส่ได้อยู่</p>
+
+<p>พิธีเปิดงาน ก็มีอาจารย์มาพูดเปิดงาน ประชาสัมพันธ์งานต่างๆของทางคณะ ก็เป็นปกติที่ไม่น่าจะมีใครฟัง เราก็มองหาคนรู้จักไปเรื่อย จนพี่กุ้งที่นัดกันไว้ก็มาถึง จบพิธีเปิดพอดี ก็ตัดสินใจกันว่าจะไปห้อง Intermidiate กัน เดินลงบันได 7 ชั้น แล้วก็ขึ้นอีก 5 ชั้น</p>
+
+<h2 id="scalable-react-app-architecture-โดยค-ณ-zack-siri">Scalable React app architecture โดยคุณ Zack Siri</h2>
+
+<p>คนนี้พูดถึงเรื่องที่เค้าทำ SPA (Single page application) แล้วเจอปัญหาอะไรมาบ้าง แล้วแก้ยังไง ก็มาเล่าให้ฟังเป็นแนวทางในการแก้ปัญหากับของเราเอง</p>
+
+<p>การวางโครงสร้างไฟล์เค้าเลือกที่จะวางเป็น App, Lib, Vendor</p>
+
+<ul>
+<li>App เป็นโค้ดที่เค้าเขียนเองทั้งหมด ซึ่งข้างในก็จะแบ่งย่อยๆเป็น Page กับ Component อีกที</li>
+<li>Lib คือโค้ดที่เค้าเขียนเอง และสามารถใช้ซ้ำในโปรเจคอื่นๆ หรือโค้ดที่เอามาจากของโปรเจคอื่นๆได้ แบบพวก Component พื้นฐาน</li>
+<li>Vendor คือโค้ดที่เค้าไม่ได้เขียนเอง ส่วนนี้จะแตกต่างจาก node_modules แค่ว่ามันไม่มีให้ดาวน์โหลดใน npm หรือต้องการแก้ไขบางอย่างนิดหน่อย</li>
+</ul>
+
+<p>ต่อมาก็เป็นเรื่อง Config เค้าก็โหลด config ตาม environment ที่กำหนดตอนรัน</p>
+
+<p>เรื่อง State mangement เค้าเลือกใช้ MobX และโฆษณาว่าดีกว่า Redux แต่ได้รับความนิยมน้อยกว่า ส่วนตัวเราเองก็ยังไม่เคยใช้ MobX ถ้ามีโอกาสก็น่าจะได้ลองอยู่ มีคนเชียร์ขนาดนี้</p>
+
+<p>เรื่อง Animation เค้าเลือกใช้ package ชื่อ animate อะไรสักอย่าง ดูง่ายมาก เพิ่ม Property ไป 2 ตัวก็ใช้ได้เลย ดูดีมาก</p>
+
+<p>ก็มีหลายๆอย่างที่เค้าเล่ามาน่าจะเอาไปลองใช้กับงานเราได้ ถ้ามีโอกาสก็น่าจะลองดู</p>
+
+<h2 id="bdd-in-react-native-โดยค-ณ-tim-plan-for-fit">BDD in React Native โดยคุณ Tim Plan for fit</h2>
+
+<p>เซสชั่นนี้เสียดายมาก ไปเข้าห้องน้ำได้ฟังติ๊ดเดียว หลักๆคุณฮิมจะพูดเรื่อง กระบวนการการทำ QA ว่าใครทำ ทำยังไงดี มีแนะนำหนังสือ สามเล่ม ทฤษฏียันปฏิบัติ จำชื่อไม่ได้แล้ว จากนั้นกลับมาอีกทีก็ไม่ทันแล้ว เค้าโชว์เรื่องการเทส React native ด้วย -package อะไรสักอย่าง- ซึ่งสามารถประกาศเทสเป็นภาษาไทยได้ แล้วยังสามารถ export เป็น static html file ได้อีกด้วย เหมาะกับการ ส่งให้คนทางฝั่งบริหารดูอย่างมาก</p>
+
+<h2 id="lightning-talk">Lightning talk</h2>
+
+<p>หลังจากที่เค้าเลี้ยงข้าวกลางวันแล้ว ก็จะมีคนมาพูดถึงของที่น่าสนใจให้ฟัง</p>
+
+<ul>
+<li>Jitta มาเล่าให้ฟังว่าเค้าใช้ Node มาตั้งแต่ 0.4 (2012) ผ่านมาเยอะ เจ็บมาเยอะ ก็ค่อยๆปรับเปลี่ยนมาเรื่อย ตั้งแต่ ember bootstrap พอมาใช้ React ก็ใส่ลูกเล่นได้มากขึ้น ตัวเว็บมีความสามารถมากขึ้น</li>
+<li>Expo เป็นตัวช่วยให้รัน Native บนเครื่องจริงได้สะดวกขึ้น สั่งรันแล้วเราจะได้ QR Code มา สแกนปุป รันในเครื่องจริงได้เลย แล้วก็มีหน้าจอมือถือให้ดูบนคอมอีกด้วย ทำงานเป็น Hot reload ได้เลย</li>
+<li>Web component เป็นมาตราฐานที่ให้เอา component ใช้ข้ามเว็บได้ เรียกผ่าน api ของ เบราเซอร์ ได้ยินมานานแล้วเพิ่งรู้ว่ามันคืออย่างนี้นี่เอง React เองก็สามารถสร้าง Web component ได้ หรือจะอิมพอทมาใช้ก้ได้เช่นกัน</li>
+<li>GraphQL อันนี้เคยลองใช้มาบ้างแล้ว เลยไม่ได้ตั้งใจฟังเท่าไหร่ ตัวอย่างบนสไลด์ดูไม่รู้เรื่อง มองไม่เห็น</li>
+<li>Apollo client เป็น GraphQL client เค้าโฆษณาว่าดี ใช้ง่าย มีฟีเจอร์เด่นๆเลยก็คือ Redux integrated, caching, batch request กับอะไรอีกอันสองอัน จำไม่ได้แล้ว</li>
+</ul>
+
+<h2 id="styled-components-change-your-css-styling-mindset-โดยค-ณ-yanin-tuamsuk">Styled Components: Change your CSS styling mindset โดยคุณ Yanin Tuamsuk</h2>
+
+<p>เป็นหัวข้อที่น่าสนใจพอสมควรเลย คนฟังล้นห้อง ได้หนังข้างหลัง มองสไลด์ไม่ชัด บวกกับการทำเราใช้ className มาตลอด(ออกแบบเองไม่เป็น) เลยไม่เข้าใจเท่าไหร่ 555 เค้าพูดถึง การทำ Styled Component 2.0 ในท่าต่างๆ
+- การใช้ Template literal ของ es ประกาศ style ได้อย่างสร้างสรรค์
+- การใช้ inline if-else ใน style
+- การใช้งานร่วมกับ css classname หรือ sass
+- การแก้ไขปัญหาเรื่อง generated-style เช่น component วิ่งตาม เมาส์
+- การรียูสสไตล์</p>
+
+<p>สรุปแล้วที่ Jitta เปลี่ยนมาใช้ตัวนี้ ทำให้ขนาดสไตล์ของเค้ารัดกุมขึ้น จากแต่ก่อนเอาของ bootstrap มา overwrite บางส่วน ทำให้มีโค้ดเหลือที่ไม่ได้ใช้อยู่ประมาณ 50%</p>
+
+<p>ความเจ๋งของเซสชั่นนี้คือ เค้าใช้ styled component ทำสไลด์เลย ตามไปดูได้<a href="https://yanawaro.github.io/reactbkk2.0.0/#/0/0">ที่นี่</a></p>
+
+<h2 id="testable-react-patterns-and-comparison-โดยค-ณ-chakrit-likitkhajorn">Testable React: Patterns and comparison โดยคุณ Chakrit Likitkhajorn</h2>
+
+<p>เซสชั่นี้จะพูดถึงเรื่องการเทสบน React ที่ Taskworld ทำกัน เค้าจะแบ่งการเทสเป็น 3 แบบ
+- Dumb Component (รับ prop แล้ว render ไม่ทำอย่างอื่น) พวกนี้เค้าเลือกที่จะใช้ Storybook ในการเทสสิ่งที่เป็น visualize คือตั้งค่า prop ใน combination ต่างๆ แล้ว Story book จะเรนเดอร์ให้ดู เราก็ต้องตรวจเองด้วยสายตา
+- Component ที่มี logic แต่ต้องไม่ใช่ business rule เช่น เอาเมาส์ชี้ตรงนี้แล้วต้องไฮไลท์ (ในความเข้าใจของผมก็คือ component ที่มี หลายๆ component ข้างใน interact กับ user) พวกนี้เค้าเทสด้วย Enzyme
+- Business rule เทสแยกออกไปเป็นเทส js ธรรมดา อาจจะใช้ท่า Inject เข้าไปใน component ก็ได้ เวลาที่ business เปลี่ยน จะได้แก้เทสแค่เคสเดียว ไม่ได้พ่วงกันหมด เทสของ component นั้นก็สามารถ mock rule เอาได้</p>
+
+<p>ที่ Taskworld ไม่ชอบ Selenium test จะใช้เทสแค่พวกที่สำคัญมากๆเท่านั้น เช่น ล็อคอิน จ่ายเงิน เนื่องจากมันช้าเสียเวลา และยังไว้ใจไม่ได้อีกด้วย รันบางทีก็ผ่าน บางทีก็ไม่ผ่าน เค้าเองก็ค่อยๆทำเทสเพิ่มเรื่อยๆ ตอนนี้ Coverage 60% แล้ว</p>
+
+<h2 id="lessons-learned-from-using-next-js-in-production-โดยค-ณ-panj-takemetour">Lessons Learned from using Next.js in Production โดยคุณ PanJ TakeMeTour</h2>
+
+<p>ในเซสชั่นนี้ เค้าเล่าให้ฟังว่าทำยังไงให้หนเาแรกใชเงานได้เร็วที่สุด ก็ใช้วิธีดังนี้
+- ทำ SSR(Server side rendering) เพื่อให้เกิดการ render ก่อนที่จะโหลด js เสร็จ คือ render หลังจากโหลด css เสร็จ
+- แนบสไตล์ที่จะใช้ในหน้านั้นไปกับไฟล์ html เลย เพื่อที่จะให้ render ก่อนที่จะโหลด css เสร็จ คือ โหลด html ไฟล์เดียว ก็จะ render ได้เลย
+- แบ่งไฟล์ js เป็น chunk ที่เค้าใช้คือ หน้าละ chunk เพื่อให้โหลดเสร็จเร็วขึ้น เมื่อ chunk ของหน้านั้นโหลดเสร็จก็จะสามารถ interact ได้ทันที
+- แยกเว็บเป็นสองส่วน static กับ dynamic ส่วนที่เป็น static ให้ใช้ NextJS จัดการ แล้วมี router ข้างในเชคปลายทางว่าไปที่ไหน ซึ่งส่วนที่เป็น static เค้าก็ใช้ caching จัดการ ตั้งอายุไว้ 1 ชั่วโมง แล้วก็เอาตัว router กับ cache ไปวางไว้ทั่วๆ ตามฐานผู้ใช้งาน ผลลัพท์ออกมา 1 page load โดยรวมดูเร็วกว่า github เสียอีก สุดยอดมาก</p>
+
+<p>สาเหตุที่ต้องทำให้หน้าแรกใช้งานได้เร็วที่สุดก็คือ ผู้ใช้ 50% จะปิดเว็บทิ้งถ้าหากโหลดไม่เสร็จภายใน 3 วินาที ส่วนสไลด์อยู่<a href="https://www.slideshare.net/PanjamapongSermsawat/lessons-learned-from-using-nextjs-in-production">ที่นี่</a></p>
+
+<h2 id="fire-side-chat">Fire side chat</h2>
+
+<ul>
+<li>type vs non-type ถ้าใหญ่ก็ควรต้อง type เพราะมันจะลดการผิดพลาดได้มากกว่า non-type</li>
+<li>definition of done คือคนในทีมต้องตกลงกันเอง ประเด็นคือหัวหน้ากับคนทำต้องเข้าใจตรงกันว่า เสร็จ คืออะไร</li>
+</ul>
+
+<p>หลังจากนั้นก็กลับบ้านแล้ว เพราะมีนัดไปงาน ComDE ที่จุฬา เลยกลับออกมาก่อน งานนี้ได้รู้จักคนเพิ่มอีกสองคน กับรุ่นพี่รุ่นน้องในภาคที่ไม่ได้เจอกันนานแล้ว พอเขียนเรื่องเริ่มยาวก็ชักอยากได้กล้องละ ไม่มีรูปแทรกระว่างย่อหน้าเลย</p>
+
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="http://blog.sermtape.comtags/event/">event</a>
+            
+                <a href="http://blog.sermtape.comtags/react/">react</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=ReactBKK%202.0&url=http%3a%2f%2fblog.sermtape.com%2fpost%2freact-bkk-2%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.sermtape.com%2fpost%2freact-bkk-2%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.sermtape.com%2fpost%2freact-bkk-2%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
+			</div>
+
+			<nav class="post-nav">
+				
+				
+					<a class="post-nav-item post-nav-prev" href="http://blog.sermtape.com/post/stranger-talk/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">บทสนทนากับคนแปลกหน้า</h4>
+								<p class="post-nav-excerpt">หนทางสู่การเป็นคนเปิดๆ&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
+
+		</div>
+	</article>
+</main>
+
+				<div id="body-class" style="display: none;"></div>
+				<footer id="footer">
+					<section class="credits">
+						<span class="credits-theme">Theme <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a> by <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+						<span class="credits-software">Published with <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a></span>
+					</section>
+				</footer>
+				
+<div id="menu" data-target="menu">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="menu" data-target="menu"></a>
+    </div>
+
+    <div class="menu-list">
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-user'></i>
+            <a class="home current js-ajax-link" href="/about/me">about me</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-cog'></i>
+            <a class="home current js-ajax-link" href="/tags/lightstone">lightstone</a>
+        </li>
+        
+    </div>
+
+</div>
+
+				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#reactbkk-2-0">ReactBKK 2.0</a>
+<ul>
+<li><a href="#scalable-react-app-architecture-โดยค-ณ-zack-siri">Scalable React app architecture โดยคุณ Zack Siri</a></li>
+<li><a href="#bdd-in-react-native-โดยค-ณ-tim-plan-for-fit">BDD in React Native โดยคุณ Tim Plan for fit</a></li>
+<li><a href="#lightning-talk">Lightning talk</a></li>
+<li><a href="#styled-components-change-your-css-styling-mindset-โดยค-ณ-yanin-tuamsuk">Styled Components: Change your CSS styling mindset โดยคุณ Yanin Tuamsuk</a></li>
+<li><a href="#testable-react-patterns-and-comparison-โดยค-ณ-chakrit-likitkhajorn">Testable React: Patterns and comparison โดยคุณ Chakrit Likitkhajorn</a></li>
+<li><a href="#lessons-learned-from-using-next-js-in-production-โดยค-ณ-panj-takemetour">Lessons Learned from using Next.js in Production โดยคุณ PanJ TakeMeTour</a></li>
+<li><a href="#fire-side-chat">Fire side chat</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+				<div class="overlay"></div>
+			</div>
+		</section>
+
+    <script async src="http://blog.sermtape.comjs/main.js"></script>
+
+
+
+
+  <noscript><link rel="stylesheet" href="http://blog.sermtape.comcss/main.css"></noscript>
+</body>
+</html>
+
