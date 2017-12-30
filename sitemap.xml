@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.sermtape.com/post/2017-year-review/</loc>
+    <lastmod>2017-12-29T19:16:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sermtape.com/post/code-as-request-2/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
   </url>
@@ -112,7 +117,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/post/</loc>
-    <lastmod>2017-07-03T13:34:00+07:00</lastmod>
+    <lastmod>2017-12-29T19:16:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,7 +135,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/</loc>
-    <lastmod>2017-07-03T13:34:00+07:00</lastmod>
+    <lastmod>2017-12-29T19:16:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +147,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/tags/trivia/</loc>
-    <lastmod>2017-05-27T21:30:00+07:00</lastmod>
+    <lastmod>2017-12-29T19:16:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
