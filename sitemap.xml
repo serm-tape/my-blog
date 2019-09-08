@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.sermtape.com/post/certbot/</loc>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sermtape.com/post/2018-year-review/</loc>
     <lastmod>2018-12-29T17:24:00+07:00</lastmod>
   </url>
@@ -79,6 +84,12 @@
   </url>
   
   <url>
+    <loc>http://blog.sermtape.com/tags/certbot/</loc>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sermtape.com/tags/education/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
     <priority>0</priority>
@@ -93,6 +104,12 @@
   <url>
     <loc>http://blog.sermtape.com/tags/event/</loc>
     <lastmod>2017-06-04T10:30:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sermtape.com/tags/express/</loc>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,8 +138,14 @@
   </url>
   
   <url>
+    <loc>http://blog.sermtape.com/tags/node.js/</loc>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sermtape.com/post/</loc>
-    <lastmod>2018-12-29T17:24:00+07:00</lastmod>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,7 +163,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/</loc>
-    <lastmod>2018-12-29T17:24:00+07:00</lastmod>
+    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,10 +5,21 @@
     <link>http://blog.sermtape.com/post/</link>
     <description>Recent content in Posts on Serm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 29 Dec 2018 17:24:00 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 17:30:00 +0700</lastBuildDate>
     
 	<atom:link href="http://blog.sermtape.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>https ด้วย certbot บน express</title>
+      <link>http://blog.sermtape.com/post/certbot/</link>
+      <pubDate>Sun, 08 Sep 2019 17:30:00 +0700</pubDate>
+      
+      <guid>http://blog.sermtape.com/post/certbot/</guid>
+      <description>HTTPS ด้วย certbot บน express พอดีว่าพักหลังๆได้เซทเซิฟเวอร์แล้วต้องทำ https พอจะมาทำอีกรอบก็ลืมไปแล้วว่าต้องทำอะไรบ้าง เลยจัดไว้ในนี้เลยละกัน เผื่อลืม
+install certbot ก่อนจะทำการสร้าง certificate ก็ต้องดาวน์โหลด certbot มาใช้ก่อน เพื่อเป็น Agent ในการยืนยันโดเมนและเซิฟเวอร์ของเรา ติดตั้ง epel (extra packages for enterprise linux), yum-utils และสุดท้าย พระเอกของเรา certbot
+~$ yum install epel-release ~$ yum install yum-utils ~$ yum install certbot  แล้วเว็บเซิฟเวอร์เราล่ะ ด้วย ACME protocol ที่ agent ตัวนี้ใช้นั้น ต้องใช้ http server ในการยืนยันด้วย แน่นอนว่า certbot เองก็รู้ดีว่าเราขี้เกียจกันขนาดไหน เพียงแค่เรารันด้วย --standalone โหมด http server ก็จะถูกเปิดขึ้นใช้เฉพาะกิจเพื่อการยืนยันโดยเฉพาะ จากนั้นก็กรอกรายละเอียดสำหรับ Public key ของเรา เป็นอันเสร็จสิ้น</description>
+    </item>
     
     <item>
       <title>2018 year review</title>

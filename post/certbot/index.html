@@ -1,27 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="">
 
     <head>
-	<meta name="generator" content="Hugo 0.22-DEV" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" Serm&#39;s blog" />
+        <meta property="og:title" content=" https ด้วย certbot บน express &middot;  Serm&#39;s blog" />
         <meta property="og:site_name" content="Serm&#39;s blog" />
-        <meta property="og:url" content="http://blog.sermtape.com/" />
+        <meta property="og:url" content="http://blog.sermtape.com/post/certbot/" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2019-09-08T17:30:00&#43;07:00" />
+        <meta property="og:article:tag" content="node.js" />
+        <meta property="og:article:tag" content="express" />
+        <meta property="og:article:tag" content="certbot" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:creator" content="@" />
+        <meta name="twitter:title" content="https ด้วย certbot บน express" />
+        <meta name="twitter:description" content="จดไว้ กันลืม หลังๆนี่ได้ทำบ่อย" />
+        <meta name="twitter:url" content="http://blog.sermtape.com/post/certbot/" />
     
 
-        <title> Serm&#39;s blog</title>
+        <title> https ด้วย certbot บน express &middot;  Serm&#39;s blog</title>
 
         <link rel="preload" href="http://blog.sermtape.com/js/main.js" as="script" />
         <link rel="preload" href="http://blog.sermtape.com/css/main.css" as="style" />
 
     
-        <meta name="description" content="" />
+        <meta name="description" content="จดไว้ กันลืม หลังๆนี่ได้ทำบ่อย" />
     
 
     
@@ -36,12 +48,58 @@
         
 
     
-
-    
         <link href="http://blog.sermtape.com/index.xml" rel="alternate" type="application/rss+xml" title="Serm&#39;s blog" />
     
-        <link rel="canonical" href="http://blog.sermtape.com/" />
 
+    
+        <link rel="canonical" href="http://blog.sermtape.com/post/certbot/" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://blog.sermtape.com/post/certbot/"
+        },
+        "headline": "https ด้วย certbot บน express",
+        "description": "จดไว้ กันลืม หลังๆนี่ได้ทำบ่อย",
+        "author": {
+            "@type": "Person",
+            "name": "Sermsak Tummarattanarangsee",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "http://blog.sermtape.com/",
+          "name": "Serm&#39;s blog",
+          "url": "http://blog.sermtape.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "http://blog.sermtape.com/images/certbot.svg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2019-09-08",
+        "dateModified": "2019-09-08",
+        "wordCount": 170,
+        "keywords": ["node.js","express","certbot"] 
+    }
+    </script>
 
 
     
@@ -78,9 +136,11 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               </a>
             </div>
             <div class="nav-menu">
-              <a class="rss" href="http://blog.sermtape.com/index.xml">
+              <a class="rss" href="">
                 <i class="icon-rss"></i>
               </a>
+                
+                <a class="menu" data-action="toc" data-target="toc"><i class="icon-location"></i></a>
                 
                 
                 <a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
@@ -89,224 +149,136 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
+<main class="content" role="main">
+	<article class="post">
 		<div class="inner">
-			<a class="header-title" href="http://blog.sermtape.com/">
-				<h1 class="header-name">Serm&#39;s blog</h1>
-				
-					<span class="header-description">Code · Idea · Learn</span>
-				
-			</a>
-		</div>
-		
-		<div class="header-cover blured-image" style="background-color: darkgreen; background-image: url(/images/cover.low.jpg)" data-src="/images/cover2.jpg"></div>
-		
-	</header>
 
-	<div id="post-index" class="container">
+			<div id="push">
 
-		<main class="content" role="main">
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">8 Sep 2019</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">170</span> words)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">https ด้วย certbot บน express</h1>
+  			</header>
 
-			<div class="post-list">
-				<div id="push">
+  			<section class="post-content">
+  				
 
-			
+<p><img src="/images/certbot.svg" alt="certbot" /></p>
 
-			
-			  
-<article class="post">
+<h1 id="https-ด-วย-certbot-บน-express">HTTPS ด้วย certbot บน express</h1>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/certbot/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/certbot/"><img src="/images/certbot.svg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">8 Sep 2019</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/certbot/">https ด้วย certbot บน express</a></h2>
-		<p class="post-excerpt">จดไว้ กันลืม หลังๆนี่ได้ทำบ่อย&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/certbot/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<p>พอดีว่าพักหลังๆได้เซทเซิฟเวอร์แล้วต้องทำ https พอจะมาทำอีกรอบก็ลืมไปแล้วว่าต้องทำอะไรบ้าง เลยจัดไว้ในนี้เลยละกัน เผื่อลืม</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/2018-year-review/"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">29 Dec 2018</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/2018-year-review/">2018 year review</a></h2>
-		<p class="post-excerpt">อัพเดทปีละครั้ง เพราะขี้เกียจ&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/2018-year-review/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<h2 id="install-certbot">install certbot</h2>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/2017-year-review/"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">29 Dec 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/2017-year-review/">2017 year review</a></h2>
-		<p class="post-excerpt">ปีนี้ทำอะไรไปบ้างนะ&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/2017-year-review/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<p>ก่อนจะทำการสร้าง certificate ก็ต้องดาวน์โหลด certbot มาใช้ก่อน เพื่อเป็น Agent ในการยืนยันโดเมนและเซิฟเวอร์ของเรา
+ติดตั้ง epel (extra packages for enterprise linux), yum-utils และสุดท้าย พระเอกของเรา certbot</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/code-as-request-2/"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">3 Jul 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/code-as-request-2/">Code as request 2</a></h2>
-		<p class="post-excerpt">Another application by request&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/code-as-request-2/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<pre><code class="language-bash">~$ yum install epel-release
+~$ yum install yum-utils
+~$ yum install certbot
+</code></pre>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/react-bkk-2/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/react-bkk-2/"><img src="/images/reactbkk.jpeg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">4 Jun 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/react-bkk-2/">ReactBKK 2.0</a></h2>
-		<p class="post-excerpt">สรุปสิ่งที่ได้จากงาน&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/react-bkk-2/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<h2 id="แล-วเว-บเซ-ฟเวอร-เราล-ะ">แล้วเว็บเซิฟเวอร์เราล่ะ</h2>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/stranger-talk/"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">27 May 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/stranger-talk/">บทสนทนากับคนแปลกหน้า</a></h2>
-		<p class="post-excerpt">หนทางสู่การเป็นคนเปิดๆ&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/stranger-talk/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<p>ด้วย ACME protocol ที่ agent ตัวนี้ใช้นั้น ต้องใช้ http server ในการยืนยันด้วย แน่นอนว่า certbot เองก็รู้ดีว่าเราขี้เกียจกันขนาดไหน เพียงแค่เรารันด้วย <code>--standalone</code> โหมด http server ก็จะถูกเปิดขึ้นใช้เฉพาะกิจเพื่อการยืนยันโดยเฉพาะ จากนั้นก็กรอกรายละเอียดสำหรับ Public key ของเรา เป็นอันเสร็จสิ้น</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/code-as-requested/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/code-as-requested/"><img src="/images/walle.jpeg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">13 May 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/code-as-requested/">โค้ดตามรีเควส</a></h2>
-		<p class="post-excerpt">เมื่อมีคนขอมาก็จัดให้&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/code-as-requested/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<pre><code class="language-bash">~$ certbot certonly --standalone
+</code></pre>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/hbd-my-bro/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/hbd-my-bro/"><img src="/images/cake.jpeg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">7 May 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/hbd-my-bro/">HBD website for my bro</a></h2>
-		<p class="post-excerpt">A quick static site for saying Happy Birthday&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/hbd-my-bro/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<p>แต่ถ้ามีเซอร์วิสรันที่พอร์ท 80 อยู่แล้วก็ต้องปิดไปก่อน เพราะบอทของเราจะใช้ แต่ถ้าปิดไม่ได้จริงๆก็ให้ใช้แบบ webroot ยืนยันแทน ก็คือให้ยืนยันผ่านทาง static path ของเราที่สร้างขึ้นนั่นเอง</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/lightstone/lightstone-5/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/lightstone/lightstone-5/"><img src="/images/short-char-view.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">7 May 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/lightstone/lightstone-5/">ข้อมูลผู้เล่นแบบย่อในโปรเจค lightstone</a></h2>
-		<p class="post-excerpt">ตามนั้น&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/lightstone/lightstone-5/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
-			  
-<article class="post">
+<pre><code class="language-bash">~$ certbot certonly --webroot ./well-known/acme
+</code></pre>
 
-	<div class="inner">
-		<a class="post-link" href="http://blog.sermtape.com/post/lightstone/lightstone-4/"></a>
-		
-		<figure class="post-image">
-			<a href="http://blog.sermtape.com/post/lightstone/lightstone-4/"><img src="/images/quest-view.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">3 May 2017</span>
-		</span>
-		<h2 class="post-title"><a href="http://blog.sermtape.com/post/lightstone/lightstone-4/">ความคืบหน้าจากวันหยุดแรงงาน</a></h2>
-		<p class="post-excerpt">Quest view ในโปรเจค lightstone&hellip;</p>
-		<span class="post-more"><a href="http://blog.sermtape.com/post/lightstone/lightstone-4/">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
-			
+<h2 id="ร-นแล-วไปไหน">รันแล้วไปไหน</h2>
 
-				</div>
+<p>หลังจาก certbot ทำการยืนยันโดเมนและเซิฟเวอร์เราเรียบร้อยแล้ว cert จะกองอยู่ที่ <code>/etc/letsencrypt/live/${domain}/</code> โดยเราจะใช้ <code>fullchain.pem</code> กับ <code>privkey.pem</code> ไปใส่ใน app ของเรา จะใช้ link หรืออะไรก็แล้วแต่สะดวกเรา</p>
+
+<h2 id="express-โลด">express โลด</h2>
+
+<p>เอา path <code>privkey</code> <code>fullchain</code> ของเราไปใส่ในคอนฟิกของ express server ก็เป็นอันเสร็จสิ้น
+```js
+const privateKey  = fs.readFileSync(API_CONFIG.ssl_key, &lsquo;utf8&rsquo;)
+const certificate = fs.readFileSync(API_CONFIG.ssl_cert, &lsquo;utf8&rsquo;)
+const credentials = {key: privateKey, cert: certificate}</p>
+
+<p>let httpsServer = https.createServer(credentials, app)
+httpsServer.listen(
+    API_CONFIG.port_https,
+    API_CONFIG.listen_host,
+    () =&gt; console.log(<code>https listen on port ${API_CONFIG.port_https}</code>)
+)
+````</p>
+
+<h2 id="เหม-อนจะเสร-จ-แต-ย-งไม-เสร-จ">เหมือนจะเสร็จ แต่ยังไม่เสร็จ</h2>
+
+<p>cert ตัวนี้อายุสั้นเพียงสามเดือน เพราะฉะนั้นต้องคอยรีนิวเรื่อยๆ ก็ใช้ <code>certbot renew</code> แล้วใส่ cron แบบมักง่ายก็ได้</p>
+
+<h2 id="อ-างอ-ง">อ้างอิง</h2>
+
+<p><a href="https://certbot.eff.org/lets-encrypt/centosrhel7-other">certbot</a>
+<a href="https://letsencrypt.org/how-it-works/">how it works</a>
+และ stack overflow อีกหลายมู้ที่จำไม่ได้แล้ว</p>
+
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="http://blog.sermtape.com/tags/node.js/">node.js</a>
+            
+                <a href="http://blog.sermtape.com/tags/express/">express</a>
+            
+                <a href="http://blog.sermtape.com/tags/certbot/">certbot</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=https%20%e0%b8%94%e0%b9%89%e0%b8%a7%e0%b8%a2%20certbot%20%e0%b8%9a%e0%b8%99%20express&url=http%3a%2f%2fblog.sermtape.com%2fpost%2fcertbot%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.sermtape.com%2fpost%2fcertbot%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.sermtape.com%2fpost%2fcertbot%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+</aside>
+
+
 			</div>
 
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-		<span class="pagination-info">Page 1 of 2</span>
-	
-		
-	  <a class="pagination-item pagination-prev" href="http://blog.sermtape.com//page/2/"><span>Older Posts</span> <i class="icon-arrow-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
+			<nav class="post-nav">
+				
+				
+					<a class="post-nav-item post-nav-prev" href="http://blog.sermtape.com/post/2018-year-review/">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">2018 year review</h4>
+								<p class="post-nav-excerpt">อัพเดทปีละครั้ง เพราะขี้เกียจ&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
 
-
-		</main>
-
-	</div>
+		</div>
+	</article>
+</main>
 
 				<div id="body-class" style="display: none;"></div>
 				<footer id="footer">
@@ -341,6 +313,28 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 </div>
 
 				
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#https-ด-วย-certbot-บน-express">HTTPS ด้วย certbot บน express</a>
+<ul>
+<li><a href="#install-certbot">install certbot</a></li>
+<li><a href="#แล-วเว-บเซ-ฟเวอร-เราล-ะ">แล้วเว็บเซิฟเวอร์เราล่ะ</a></li>
+<li><a href="#ร-นแล-วไปไหน">รันแล้วไปไหน</a></li>
+<li><a href="#express-โลด">express โลด</a></li>
+<li><a href="#เหม-อนจะเสร-จ-แต-ย-งไม-เสร-จ">เหมือนจะเสร็จ แต่ยังไม่เสร็จ</a></li>
+<li><a href="#อ-างอ-ง">อ้างอิง</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
 
 				<div class="overlay"></div>
 			</div>
