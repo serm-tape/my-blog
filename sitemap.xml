@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.sermtape.com/post/2019-year-review/</loc>
+    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sermtape.com/post/certbot/</loc>
     <lastmod>2019-09-08T17:30:00+07:00</lastmod>
   </url>
@@ -145,7 +150,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/post/</loc>
-    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
+    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,7 +168,7 @@
   
   <url>
     <loc>http://blog.sermtape.com/</loc>
-    <lastmod>2019-09-08T17:30:00+07:00</lastmod>
+    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,6 +181,12 @@
   <url>
     <loc>http://blog.sermtape.com/tags/trivia/</loc>
     <lastmod>2018-12-29T17:24:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sermtape.com/tags/trivial/</loc>
+    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
