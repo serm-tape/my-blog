@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trivial on Serm&#39;s blog</title>
-    <link>http://blog.sermtape.com/tags/trivial/</link>
+    <link>https://blog.sermtape.com/tags/trivial/</link>
     <description>Recent content in Trivial on Serm&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 31 Dec 2019 23:47:00 +0700</lastBuildDate>
     
-	<atom:link href="http://blog.sermtape.com/tags/trivial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.sermtape.com/tags/trivial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019 year review</title>
-      <link>http://blog.sermtape.com/post/2019-year-review/</link>
+      <link>https://blog.sermtape.com/post/2019-year-review/</link>
       <pubDate>Tue, 31 Dec 2019 23:47:00 +0700</pubDate>
       
-      <guid>http://blog.sermtape.com/post/2019-year-review/</guid>
+      <guid>https://blog.sermtape.com/post/2019-year-review/</guid>
       <description>2019 ปีเปิดโลก Hightlights  ได้หัดใช้ sparks ซื้อ nintendo switch ซื้อมือถือใหม่ อาม่าเสีย ใช้เน็ตรายเดือน หัดขับรถ หัดแต่งตัว มีความรัก  การงาน งานประจำ เปิดศักราชด้วยการย้ายมาทีมใหม่ ได้เป็นหนูทดลองใช้ spark ในการทำงานของทีม ผลลัพธ์เป็นที่น่าพอใจ มีข้อดีข้อเสียที่แตกต่างกันไป อย่างตัวนี้เราไม่ต้องกังวลเรื่องขนาดของข้อมูลเลย แต่ว่าในการทำงานบางอย่างอาจช้ากว่า ถ้าเทียบกับ sql ที่เคยใช้ หลายๆอย่างยังไม่ค่อยสมบูรณ์ ปีนี้ทำงานไม่ค่อยได้ตามคอมมิท เพราะเรามัวแต่นั่งทำซัพพอร์ทเอง ทุกคนบอกว่าให้แชร์ แต่สุดท้ายแล้วทุกอย่างก็รีบหมด ก็เลยทำเองมันทุกอย่างเลย ทีแรกกะว่าจะได้โปรโมทปีนี้ แต่สุดท้ายก็ไม่ โอกาสหลายๆอย่างยังไม่อำนวย อาจเพราะเราไม่ค่อยแสดงความคิดเห็นเท่าที่ควร จะพยายามพูดมากกว่านี้นะปีหน้า
 งานนอก บอกลากับงานที่ไม่ได้ตัง 55555 ของที่ควรจะเสร็จปีนี้ก็ไม่เสร็จ รื้อทำใหม่ด้วยความเดือดดาล มีโอกาสได้ใช้ material UI, postgressql, react hook จนปัจจุบันนี้ก็ยังไม่เห็นวี่แววว่าจะเสร้จเร็วๆนี้
 อยากทำของตัวเองบ้างแล้ว

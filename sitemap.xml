@@ -3,189 +3,194 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.sermtape.com/post/2019-year-review/</loc>
+    <loc>https://blog.sermtape.com/post/2020-year-reivew/</loc>
+    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sermtape.com/post/2019-year-review/</loc>
     <lastmod>2019-12-31T23:47:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/certbot/</loc>
+    <loc>https://blog.sermtape.com/post/certbot/</loc>
     <lastmod>2019-09-08T17:30:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/2018-year-review/</loc>
+    <loc>https://blog.sermtape.com/post/2018-year-review/</loc>
     <lastmod>2018-12-29T17:24:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/2017-year-review/</loc>
+    <loc>https://blog.sermtape.com/post/2017-year-review/</loc>
     <lastmod>2017-12-29T19:16:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/code-as-request-2/</loc>
+    <loc>https://blog.sermtape.com/post/code-as-request-2/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/about/me/</loc>
+    <loc>https://blog.sermtape.com/about/me/</loc>
     <lastmod>2017-06-06T20:45:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/react-bkk-2/</loc>
+    <loc>https://blog.sermtape.com/post/react-bkk-2/</loc>
     <lastmod>2017-06-04T10:30:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/stranger-talk/</loc>
+    <loc>https://blog.sermtape.com/post/stranger-talk/</loc>
     <lastmod>2017-05-27T21:30:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/code-as-requested/</loc>
+    <loc>https://blog.sermtape.com/post/code-as-requested/</loc>
     <lastmod>2017-05-13T13:00:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/hbd-my-bro/</loc>
+    <loc>https://blog.sermtape.com/post/hbd-my-bro/</loc>
     <lastmod>2017-05-07T22:30:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/lightstone/lightstone-5/</loc>
+    <loc>https://blog.sermtape.com/post/lightstone/lightstone-5/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/lightstone/lightstone-4/</loc>
+    <loc>https://blog.sermtape.com/post/lightstone/lightstone-4/</loc>
     <lastmod>2017-05-03T20:32:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/guide-share/</loc>
+    <loc>https://blog.sermtape.com/post/guide-share/</loc>
     <lastmod>2017-05-01T12:18:24+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/lightstone/lightstone-1/</loc>
+    <loc>https://blog.sermtape.com/post/lightstone/lightstone-1/</loc>
     <lastmod>2017-04-01T21:00:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/about/</loc>
+    <loc>https://blog.sermtape.com/about/</loc>
     <lastmod>2017-06-06T20:45:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/app/</loc>
+    <loc>https://blog.sermtape.com/tags/app/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/categories/</loc>
+    <loc>https://blog.sermtape.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/certbot/</loc>
+    <loc>https://blog.sermtape.com/tags/certbot/</loc>
     <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/education/</loc>
+    <loc>https://blog.sermtape.com/tags/education/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/elixir/</loc>
+    <loc>https://blog.sermtape.com/tags/elixir/</loc>
     <lastmod>2017-05-13T13:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/event/</loc>
+    <loc>https://blog.sermtape.com/tags/event/</loc>
     <lastmod>2017-06-04T10:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/express/</loc>
+    <loc>https://blog.sermtape.com/tags/express/</loc>
     <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/html/</loc>
+    <loc>https://blog.sermtape.com/tags/html/</loc>
     <lastmod>2017-05-07T22:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/idea/</loc>
+    <loc>https://blog.sermtape.com/tags/idea/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/lightstone/</loc>
+    <loc>https://blog.sermtape.com/tags/lightstone/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/lightstone-progess/</loc>
+    <loc>https://blog.sermtape.com/tags/lightstone-progess/</loc>
     <lastmod>2017-05-07T20:32:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/node.js/</loc>
+    <loc>https://blog.sermtape.com/tags/node.js/</loc>
     <lastmod>2019-09-08T17:30:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/post/</loc>
-    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
+    <loc>https://blog.sermtape.com/post/</loc>
+    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/problem/</loc>
+    <loc>https://blog.sermtape.com/tags/problem/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/react/</loc>
+    <loc>https://blog.sermtape.com/tags/react/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/</loc>
-    <lastmod>2019-12-31T23:47:00+07:00</lastmod>
+    <loc>https://blog.sermtape.com/</loc>
+    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/</loc>
+    <loc>https://blog.sermtape.com/tags/</loc>
     <lastmod>2017-07-03T13:34:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/trivia/</loc>
-    <lastmod>2018-12-29T17:24:00+07:00</lastmod>
+    <loc>https://blog.sermtape.com/tags/trivia/</loc>
+    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sermtape.com/tags/trivial/</loc>
+    <loc>https://blog.sermtape.com/tags/trivial/</loc>
     <lastmod>2019-12-31T23:47:00+07:00</lastmod>
     <priority>0</priority>
   </url>
