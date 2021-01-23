@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.sermtape.com/post/why-programming/</loc>
+    <lastmod>2021-01-23T14:22:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.sermtape.com/post/2020-year-reivew/</loc>
     <lastmod>2021-01-01T12:26:00+07:00</lastmod>
   </url>
@@ -101,7 +106,7 @@
   
   <url>
     <loc>https://blog.sermtape.com/tags/education/</loc>
-    <lastmod>2017-05-07T20:32:00+07:00</lastmod>
+    <lastmod>2021-01-23T14:22:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -155,7 +160,7 @@
   
   <url>
     <loc>https://blog.sermtape.com/post/</loc>
-    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
+    <lastmod>2021-01-23T14:22:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,7 +178,7 @@
   
   <url>
     <loc>https://blog.sermtape.com/</loc>
-    <lastmod>2021-01-01T12:26:00+07:00</lastmod>
+    <lastmod>2021-01-23T14:22:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
